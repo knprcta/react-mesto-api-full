@@ -16,7 +16,7 @@ const { validateSignIn, validateSignUp } = require('./middlewares/validator');
 const { PORT = 3000 } = process.env;
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: true }));
 app.use(bodyParser.json()); // для собирания JSON-формата
 app.use(bodyParser.urlencoded({ extended: true })); // для приёма веб-страниц внутри POST-запроса
 

@@ -5,7 +5,7 @@
 
 Домен api - "https://api.domainname.students.nomoredomains.rocks".
 
-Публичный IP - "178.154.240.79"
+Публичный IP - "193.32.219.92"
 
 ## Локальная установка
 
