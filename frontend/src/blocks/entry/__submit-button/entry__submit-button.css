@@ -1,0 +1,15 @@
+.entry__submit-button {
+  border: 0;
+  padding: 0;
+  height: 50px;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.21;
+  transition: opacity .3s ease;
+}
+
+.entry__submit-button:hover {
+  opacity: .85;
+  cursor: pointer;
+}

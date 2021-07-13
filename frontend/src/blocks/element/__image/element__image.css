@@ -1,0 +1,7 @@
+.element__image {
+  background-position: center;
+  background-size: cover;
+  width: 282px;
+  height: 282px;
+  cursor: pointer;
+}
