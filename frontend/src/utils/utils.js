@@ -1,1 +1,1 @@
-export const baseUrl = 'https://api.domainname.students.nomoredomains.rocks';
+export const baseUrl = 'https://api.knpr.first.nomoredomains.monster';

@@ -4,8 +4,11 @@ const ForbiddenError = require('../errors/ForbiddenError');
 
 const getCards = (req, res, next) => {
   Card.find({})
-    .orFail(new NotFoundError('Карточки не найдены'))
+    .sort({ _id: -1 })
     .then((cards) => {
+      if (!cards) {
+        throw new NotFoundError('Карточки не найдены');
+      }
       res.send(cards);
     })
     .catch(next);

@@ -3,7 +3,7 @@
 
 Домен проекта - "https://knpr.first.nomoredomains.rocks".
 
-Домен api - "https://api.domainname.students.nomoredomains.rocks".
+Домен api - "https://api.knpr.first.nomoredomains.monster".
 
 Публичный IP - "193.32.218.24"
 

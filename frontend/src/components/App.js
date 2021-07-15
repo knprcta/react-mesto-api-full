@@ -49,7 +49,7 @@ function App() {
     Promise.all([api.getUserInfo(token), api.getInitialCards(token)])
       .then(([user, cards]) => {
         setCurrentUser(user);
-        setCards(cards.reverse());
+        setCards(cards);
         setLoggedIn(true);
         history.push("/");
       });
